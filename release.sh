@@ -8,7 +8,7 @@ VERSION=$1
 
 echo "Releasing $VERSION - are you sure? (y/n):" && read CONFIRM && [ "$CONFIRM" != "y" ] && exit 0
 
-npm run build
+#npm run build
 
 # commit
 git add -A
