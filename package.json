@@ -1,0 +1,22 @@
+{
+  "name": "babel-preset-sd0m",
+  "version": "0.0.0",
+  "description": "Babel preset to transform JSX for Solid.js and sd0m",
+  "author": "dyu",
+  "homepage": "https://github.com/dyu/babel-preset-sd0m",
+  "license": "MIT",
+  "repository": "dyu/babel-preset-sd0m",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "babel-plugin-jsx-sd0m": "0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0"
+  }
+}
